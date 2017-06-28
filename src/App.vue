@@ -1,21 +1,39 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <h1></h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://gitter.im/vuejs/vue" target="_blank">Gitter Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+    <nav class="nav container">
+      <div class="nav-left">
+        <a class="nav-item">
+          <h1 class="title">Xing Li</h1>
+        </a>
+      </div>
+
+      <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+      <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+      <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+
+      <!-- This "nav-menu" is hidden on mobile -->
+      <!-- Add the modifier "is-active" to display it on mobile -->
+      <div class="nav-right nav-menu">
+        <a class="nav-item">
+          Projects
+        </a>
+        <a class="nav-item">
+          Artworks
+        </a>
+        <a class="nav-item">
+          About
+        </a>
+        <a class="nav-item">
+          Resume
+        </a>
+
+      </div>
+    </nav>
+    <newsbyte></newsbyte>
   </div>
 </template>
 
@@ -26,35 +44,40 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+
+  components: {
+    'newsbyte': require('./components/newsbyte.vue'),
   }
 }
 </script>
 
+<style lang="sass" src="bulma"></style>
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    // font-family: 'Open Sans', sans-serif;
+    // max-width: 1024px;
+    // margin: 0 auto;
+    // padding: 0 1.5rem;
+  }
 
-h1, h2 {
-  font-weight: normal;
-}
+  // h1 {
+  //   font-size: 1.5rem;
+  //   text-transform: uppercase;
+  //   font-family: 'PT Sans', sans-serif;
+  // }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+  // h2 {
+  //   font-size: 1.5rem;
+  //   text-transform: uppercase;
+  //   text-align: middle;
+  //   font-family: 'Roboto', sans-serif;
+  // }
 
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+  // h3 {
+  //   font-size: 1.25rem;
+  //   text-transform: uppercase;
+  //   font-family: 'Roboto', sans-serif;
+  // }
 
-a {
-  color: #42b983;
-}
 </style>
