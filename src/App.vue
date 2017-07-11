@@ -33,7 +33,8 @@
 
       </div>
     </nav>
-    <newsbyte></newsbyte>
+    <!-- <newsbyte></newsbyte> -->
+    <praiseworthy></praiseworthy>
   </div>
 </template>
 
@@ -48,6 +49,7 @@ export default {
 
   components: {
     'newsbyte': require('./components/newsbyte.vue'),
+    'praiseworthy': require('./components/praiseworthy.vue'),
   }
 }
 </script>
