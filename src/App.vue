@@ -25,10 +25,13 @@ export default {
 <style lang="sass" src="bulma"></style>
 <style lang="scss">
   #app {
-    // font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     // max-width: 1024px;
     // margin: 0 auto;
     // padding: 0 1.5rem;
+    h1, h2, h3 {
+      font-family: 'Francois One', sans-serif;
+    }
   }
 
   // h1 {
