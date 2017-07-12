@@ -1,40 +1,7 @@
 <template>
   <div id="app">
-    <nav class="nav container">
-      <div class="nav-left">
-        <a class="nav-item">
-          <h1 class="title">Xing Li</h1>
-        </a>
-      </div>
-
-      <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-      <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-      <span class="nav-toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-
-      <!-- This "nav-menu" is hidden on mobile -->
-      <!-- Add the modifier "is-active" to display it on mobile -->
-      <div class="nav-right nav-menu">
-        <a class="nav-item">
-          Projects
-        </a>
-        <a class="nav-item">
-          Artworks
-        </a>
-        <a class="nav-item">
-          About
-        </a>
-        <a class="nav-item">
-          Resume
-        </a>
-
-      </div>
-    </nav>
-    <!-- <newsbyte></newsbyte> -->
-    <praiseworthy></praiseworthy>
+    <navigation></navigation>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -48,6 +15,7 @@ export default {
   },
 
   components: {
+    'navigation': require('./components/nav.vue'),
     'newsbyte': require('./components/newsbyte.vue'),
     'praiseworthy': require('./components/praiseworthy.vue'),
   }
