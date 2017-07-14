@@ -3,7 +3,7 @@
     <nav class="navbar">
       <div class="navbar-brand">
         <router-link class="navbar-item" to="/">
-          <h1 class="title"><strong>Xing Li</strong></h1>
+          <h1 class="title is-3"><strong>Xing Li</strong></h1>
         </router-link>
         <div class="navbar-burger" @click="toggleBurgerMenu"
           :class="{ 'is-active': burgerMenuIsOpen }">
@@ -16,10 +16,10 @@
       <div class="navbar-menu" :class="{ 'is-active': burgerMenuIsOpen }">
         <div class="navbar-start">
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link is-active" href="#">Projects</a>
+            <p class="navbar-link is-active" href="#">Projects</p>
             <div class="navbar-dropdown">
               <router-link class="navbar-item" to="/laughly">Laughly</router-link>
-              <router-link class="navbar-item" to="/newsbyte">Newsbyte</router-link>
+              <router-link class="navbar-item" to="/newsbite">Newsbite</router-link>
               <router-link class="navbar-item" to="/praiseworthy">Praiseworthy</router-link>
             </div>
           </div>

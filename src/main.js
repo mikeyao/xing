@@ -7,13 +7,13 @@ Vue.use(VueRouter)
 // Import Components
 import Home from './components/home.vue'
 import Laughly from './components/laughly.vue'
-import Newsbyte from './components/newsbyte.vue'
+import Newsbite from './components/newsbyte.vue'
 import Praiseworthy from './components/praiseworthy.vue'
 
 const routes = [
   { path: '/', component: Home },
   { path: '/laughly', component: Laughly },
-  { path: '/newsbyte', component: Newsbyte },
+  { path: '/newsbite', component: Newsbite },
   { path: '/praiseworthy', component: Praiseworthy },
   { path: '*', redirect: '/'},
 ]
