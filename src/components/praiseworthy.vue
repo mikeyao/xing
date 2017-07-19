@@ -1,11 +1,10 @@
 <template>
-  <div class="content">
+  <div class="content praiseworthy">
     <figure class="image">
-      <!-- <img src="http://bulma.io/images/placeholders/128x128.png"> -->
-      Missing Banner Image
+      <img src="../assets/praiseworthy/title.png">
     </figure>
     
-    <div>
+    <div class="section">
       <h1 id="Praiseworthy-Project-Intro" class="title has-text-centered is-2">Project Intro</h1>
       <article>
         <h2 class="title is-4">The Company</h2>
@@ -32,13 +31,13 @@
       </article>
     </div>
 
-    <div>
+    <div class="section">
           <article>
             <h1 id="Praiseworthy-Design-Process" class="title has-text-centered is-2">Design Process</h1>
             <figure class="image">
-              <img src="../assets/praiseworthy/design_process_banner.png">
+              <img src="../assets/praiseworthy/design_process.png">
             </figure>
-            <div class="columns">
+            <!-- <div class="columns">
               <div class="column">
                 <h2 class="title is-4">Research</h2>
                 <ul>
@@ -69,7 +68,7 @@
                   <li>Final Deliveries</li>
                 </ul>
               </div>
-            </div>
+            </div> -->
           </article>
 
           <article>
@@ -77,9 +76,9 @@
             <h3 class="title is-5">Understanding Product</h3>
             <p>Praiseworthy team showed us the concept and product value that they have been insisting. But they think the existing rpduct design did not show these ideas. So they hope our redeisng can help them achieve their goal.    
             </p>
-            <div class="level">
-              <div class="level-item has-text-centered">
-                <img src="http://bulma.io/images/placeholders/480x480.png">
+            <div class="columns">
+              <div class="column is-half is-offset-one-quarter">
+                <img src="../assets/praiseworthy/product_value.png">
               </div>
             </div>
             <br>
@@ -174,7 +173,7 @@
           </article>
         </div>
     
-    <div>
+    <div class="section">
           <h1 id="Praiseworthy-LoFi-Phase" class="title has-text-centered is-2">Lo-Fi Phase</h1>
 
           <article>
@@ -192,15 +191,15 @@
             </p>
             <br>
             <p class="has-text-centered"><strong>Original Home Page</strong></p>
-            <figure class="image"><img src="../assets/praiseworthy/lo_fi_before.png" alt="Original Home Page"></figure>
+            <figure class="image lo-fi-before"><img src="../assets/praiseworthy/lo_fi_before_2.png" alt="Original Home Page"></figure>
             <p class="has-text-centered"><strong>Redsigned Home Page</strong></p>
-            <figure class="image"><img src="../assets/praiseworthy/lo_fi_after.png" alt="Redesigned Home Page"></figure>
+            <figure class="image"><img src="../assets/praiseworthy/lo_fi_after_2.png" alt="Redesigned Home Page"></figure>
             <div class="columns">
-              <div class="column">
+              <div class="column is-4 is-offset-2">
                 <p class="has-text-centered">Redesigned <strong>Rankings Page</strong></p>
                 <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_rankings.png" alt="Resigned Rankings Page"></figure>
               </div>
-              <div class="column">
+              <div class="column is-4">
                 <p class="has-text-centered">Redesigned <strong>Alerts Page</strong></p>
                 <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_alerts.png" alt="Redesigned Alerts Page"></figure>
               </div>
@@ -248,13 +247,15 @@
             <h2 class="title is-4">Lo-Fi Prototypes</h2>
             <div class="level">
               <div class="level-item has-text-centered">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_prototypes_mobile.png" alt="Lo Fi Prototype Mobile"></figure>
+                <!-- <figure class="image"><img src="../assets/praiseworthy/lo_fi_prototypes_mobile.png" alt="Lo Fi Prototype Mobile"></figure> -->
+                <iframe width="438" height="930" src="https://invis.io/5JA1GOOZR" frameborder="0" allowfullscreen=""></iframe>
               </div>
             </div>
             <br>
             <div class="level">
               <div class="level-item has-text-centered">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_prototypes_tablet.png" alt="Lo Fi Prototype Tablet"></figure>
+                <!-- <figure class="image"><img src="../assets/praiseworthy/lo_fi_prototypes_tablet.png" alt="Lo Fi Prototype Tablet"></figure> -->
+                <iframe src="https://marvelapp.com/3d4cca8?emb=1" width="948" height="676" allowtransparency="true" frameborder="0"></iframe>
               </div>
             </div>
           </article>
@@ -281,7 +282,7 @@
           </article>
         </div>
     
-    <div>
+    <div class="section">
           <h1 id="Praiseworthy-HiFi-Phase" class="title has-text-centered is-2">Hi-Fi Phase</h1>
           <div class="columns">
             <div class="column is-8 is-offset-2">
@@ -292,13 +293,15 @@
             <h2 class="title is-4">Final Prototypes</h2>
             <div class="level">
               <div class="level-item has-text-centered">
-                <figure class="image"><img src="../assets/praiseworthy/hi_fi_mobile.png" alt="Lo Fi Prototype Mobile"></figure>
+                <!-- <figure class="image"><img src="../assets/praiseworthy/hi_fi_mobile.png" alt="Lo Fi Prototype Mobile"></figure> -->
+                <iframe src="https://marvelapp.com/1df81g2?emb=1" width="300" height="598" allowtransparency="true" frameborder="0"></iframe>
               </div>
             </div>
             <br>
             <div class="level">
               <div class="level-item has-text-centered">
-                <figure class="image"><img src="../assets/praiseworthy/hi_fi_tablet.png" alt="Lo Fi Prototype Tablet"></figure>
+                <!-- <figure class="image"><img src="../assets/praiseworthy/hi_fi_tablet.png" alt="Lo Fi Prototype Tablet"></figure> -->
+                <iframe src="https://marvelapp.com/31g34hd?emb=1" width="948" height="676" allowtransparency="true" frameborder="0"></iframe>
               </div>
             </div>
           </article>
@@ -306,3 +309,12 @@
 
   </div>
 </template>
+
+<style lang="scss">
+  .praiseworthy {
+    .lo-fi-before {
+      margin-top: -113px;
+      margin-bottom: -100px;
+    }
+  }
+</style>
