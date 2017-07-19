@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="navigation container" id="top-navigation">
     <nav class="navbar">
       <div class="navbar-brand">
         <router-link class="navbar-item" to="/">
@@ -58,3 +58,14 @@
     }
   }
 </script>
+
+<style lang="scss">
+  .navigation {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0 0 1px rgba(0,0,0,0.25);
+  }
+</style>

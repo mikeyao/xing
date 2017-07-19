@@ -1,7 +1,18 @@
 <template>
   <div id="app">
     <navigation></navigation>
-    <router-view></router-view>
+    <div class="app-content section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-2">
+            <sidebar class="sidebar"></sidebar>
+          </div>
+          <div class="column is-9">
+            <router-view></router-view>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -16,6 +27,7 @@ export default {
 
   components: {
     'navigation': require('./components/nav.vue'),
+    'sidebar': require('./components/sidebar.vue'),
     'newsbyte': require('./components/newsbyte.vue'),
     'praiseworthy': require('./components/praiseworthy.vue'),
   }
@@ -31,6 +43,22 @@ export default {
     // padding: 0 1.5rem;
     h1, h2, h3 {
       font-family: 'Francois One', sans-serif;
+    }
+    
+    h1 {
+      text-transform: uppercase;
+      &:before {
+        display: block;
+        content: " ";
+        margin-top: -3rem;
+        height: 3rem;
+        visibility: hidden;
+      }
+    }
+    
+    .sidebar {
+      position: fixed;
+      top: 100px;
     }
   }
 
