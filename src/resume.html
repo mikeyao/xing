@@ -1,0 +1,266 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:doc="http://xsltsl.org/xsl/documentation/1.0" xmlns:dt="http://xsltsl.org/date-time" xmlns:str="http://xsltsl.org/string" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-16">
+    <title>XingLi</title>
+    <style type="text/css" id="static">
+    /* Reset browser defaults *//* --------------------------------------------------------------
+    Reset default browser CSS.
+    Based on work by Eric Meyer:
+    * http://meyerweb.com/eric/tools/css/reset/index.html
+    -------------------------------------------------------------- *//* v1.0 | 20080212 */html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+    body {line-height: 1; background: #FFF; text-align: left; color:#222;}
+    ol, ul {list-style: none;}
+    blockquote, q {quotes: none;}
+    blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+    /* remember to define focus styles! */:focus {outline: 0;}
+    /* remember to highlight inserts somehow! */ins {text-decoration: none;}
+    del {text-decoration: line-through;}
+    /* tables still need 'cellspacing="0"' in the markup */table {border-collapse: collapse; border-spacing: 0;}
+    a img {border: none;}
+    <!-- /* Typography */
+    ul, li {list-style-type: disc; margin: 0 0 0 10px; padding: 0;}
+    ul li {margin: 0 0 0 13px;} -->
+	
+	   /*START old disc style for LI
+    ul,li{list-style-type:disc;margin:0 0 0 12px;padding:0;}
+    ul li{margin:0 0 0 18px;padding:0 0 0 3px;}
+    END old disc style for LI*/
+    /*START Image treatment for LI*/
+    ul,li{list-style-type:disc;}
+    ul,li{margin:0;padding:0;}
+    ul li{margin:0 0 0 11px;padding:0 0 0 3px;}
+    /*END Image treatment for LI*/
+	
+    .clear {clear: both; height: 0;}
+    br.clear {line-height: 0;}
+    div.name {font-size: 15px; line-height: 17px; font-weight: bold; padding: 0; text-align: center; color: #0f706c;}
+    div.logo {display: none;}
+    div.paragraph {position: relative;}
+    div.heading {clear: both; font-weight: bold;}
+    div.address {position: relative; text-align: center; font-size: 0.917em; line-height: 1.25em; margin-top: 11px;word-wrap: break-word;}
+    div.address2 {position: relative; text-align: left; font-size: 0.917em; line-height: 1.25em;}
+    span.paddedline {display: block;}
+    span.jobtitle, span.companyname, span.degree, span.programline {font-weight: bold;}
+    span.degree, span.programline, span.jobtitle {color: #0f706c;}
+    span.companyname, span.jobcity, span.jobstate {font-style: italic;}
+    span.dates_wrapper {display: block; float: left; color: #999;}
+    .table_wrapper {width: 100%; margin-top: 0;}
+    table.skills, table.twocol {width: 100%;}
+    table.skills th, table.skills td {width: 20%; text-align: center;}
+    table.skills th {text-decoration: underline;}
+    table.skills .skillname, table.skills .skillrating {text-align: left; width: 35%;}
+    table.skills .skillrating {width: 20%;}
+    table.skills .skillyears, table.skills .skilllast {width: 19%;}
+    table.skills .pad1 {width: 5%;}
+    table.skills .pad2, table.skills .pad3 {width: 1%;}
+    .nodisplay {display: none;}
+    div#document.pagesize {width: 603px;}
+    div#document .topborder {padding-top: 2px; border-color: #0f706c!important;}
+    div#document div.sectiontitle {color: #0f706c;}
+      /*Added by Amit for LCMAIN-955*/
+    .adnlLnks li:before{vertical-align: bottom;}
+    .adnlLnks li.first:before {content: "";}
+    div.adnlLnks{text-align: center}
+    .adnlLnks li {list-style-type: disc;display:inline!important;}
+    /*FIX for FORCEFULLY making left margin ZERO for CL*/
+    div#document .sectionCL .paragraph {margin-top: 0!important;}
+    div.twocol ul li, div.twocol p span{width:42%;float:left}
+    div#document .skillSection{clear:both;display:table;width:100%}
+  </style>
+    <style type="text/css" id="unparsed">
+    div#document {line-height: {$FTLH}px;}
+    div#document table {line-height: {$FTLH}px;}
+    div#document.vmargins {padding-top: {$TBMR}px; padding-bottom: {$TBMR}px;}
+    div#document.hmargins {padding-left: {$LRMR}px; padding-right: {$LRMR}px;}
+    div#document .section {margin-top: {$SCSP}px;}
+    div#document div.firstsection {margin-top: 0;}
+    div#document div.SECTION_CNTC {margin-top: 0;}
+    div#document div.heading {margin-bottom: {$SHMB}px;}
+    div#document div.paragraph {margin-top: {$PSPC}px;}
+    div#document div.firstparagraph {margin-top: 0;}
+    div#document .singlecolumn, div#document .maincolumn {margin-left: {$SCML}px;}
+    span.dates_wrapper {width: {$SCML}px; font-size:{$DTSZ}px;}
+    .fontsize {font-size: {$FTSZ}px;}
+    .fontface {font-family: {$FTFC};}
+    div#document .topborder {border-top: 1px dotted #0f706c;} /*{$LNWT}*/
+    div#document div.sectiontitle {font-size: {$HDSZ}px; line-height: {$HDLH}px;}
+    div.name {font-size: {$NMSZ}px; line-height: {$NMLH}px;}
+    div.address {font-size: {$CISZ}px; line-height: {$CILH}px; margin-top: {$CIMT}px;}
+    div#document table.skills td {padding-top: {$TDMT}px;}
+
+    /*FIX for Re-calculating width of singlecolumn for CL*/
+    div#document .sectionCL .singlecolumn {margin-left: 0!important; width: 100%;}
+    div.address2 {font-size: {$FTSZ}px; line-height: {$FTLH}px;}
+  </style>
+    <style type="text/css" id="dynamic">
+    div#document {line-height: 20px;}
+    div#document table {line-height: 20px;}
+    div#document.vmargins {padding-top: 34px; padding-bottom: 34px;}
+    div#document.hmargins {padding-left: 45px; padding-right: 45px;}
+    div#document .section {margin-top: 8px;}
+    div#document div.firstsection {margin-top: 0;}
+    div#document div.SECTION_CNTC {margin-top: 0;}
+    div#document div.heading {margin-bottom: 3.5px;}
+    div#document div.paragraph {margin-top: 7px;}
+    div#document div.firstparagraph {margin-top: 0;}
+    div#document .singlecolumn, div#document .maincolumn {margin-left: 126px;}
+    span.dates_wrapper {width: 126px; font-size:11px;}
+    .fontsize {font-size: 12px;}
+    .fontface {font-family: "Century Gothic", Helvetica, sans-serif;}
+    div#document .topborder {border-top: 1px dotted #0f706c;} /*{$LNWT}*/
+    div#document div.sectiontitle {font-size: 15px; line-height: 23px;}
+    div.name {font-size: 24px; line-height: 20px;}
+    div.address {font-size: 12px; line-height: 20px; margin-top: 10px;}
+    div#document table.skills td {padding-top: 3.5px;}
+
+    /*FIX for Re-calculating width of singlecolumn for CL*/
+    div#document .sectionCL .singlecolumn {margin-left: 0!important; width: 100%;}
+    div.address2 {font-size: 12px; line-height: 20px;}
+  </style>
+  </head>
+  <body>
+    <div id="document" class="fontsize fontface vmargins hmargins linespacing pagesize">
+      <div id="SECTION_NAME27246720" class="section">
+        <div id="PARAGRAPH_27246720_1" class="paragraph PARAGRAPH_NAME firstparagraph">
+        <div class="name">
+          <span class="field" id="27246720FNAM1">Xing</span><span></span> <span class="field" id="27246720LNAM1">Li</span>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_CNTC27246721" class="section SECTION_CNTC">
+        <div id="PARAGRAPH_27246721_1" class="paragraph PARAGRAPH_CNTC firstparagraph">
+        <div class="address">
+          <span class="field" id="27246721STRT1"></span>
+          
+          <span class="spaced field" id="27246721CITY1"></span>
+          
+          <span class="spaced field" id="27246721STAT1"></span>
+          
+          <span class="spaced field" id="27246721ZIPC1"></span>
+          <span>Home: </span><span class="field" id="27246721HPHN1">415-676-9199</span>
+          <span> - </span>
+          <span class="field" id="27246721CPHN1"></span> 
+          <span class="field" id="27246721EMAI1">anna.xing.li@gmail.com</span>
+
+        
+        
+         
+        
+        
+
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_HILT27247011" class="section skillSection">
+        <div class="heading topborder">
+              <div id="SECTNAME_HILT27247011" class="sectiontitle">Skills</div>
+          </div>
+        <div id="PARAGRAPH_27247011_1" class="paragraph firstparagraph">
+              <div class="singlecolumn maincolumn">
+                  <div class="field twocol" id="27247011SKC11"><ul ><li>Wireframing </li> <li>User Research </li></ul><ul ><li>A/B Testing</li> <li>Efficient Prototyping </li></ul><ul ><li>Visual Brand Define</li> <li>Sketch</li></ul><ul ><li>Adobe Creative Suite</ul></div>
+              </div>
+          </div>
+      </div>
+      <div id="SECTION_EXPR27246731" class="section">
+        <div class="heading topborder">
+        <div id="SECTNAME_EXPR27246731" class="sectiontitle">Experience</div>
+      </div>
+        <div id="PARAGRAPH_27246731_1" class="paragraph firstparagraph">
+        <span class="dates_wrapper">
+          <span class="jobdates" format="%m/%Y" id="27246731JSTD1">06/2017</span>
+          <span> to </span>
+          <span class="jobdates" format="%m/%Y" id="27246731EDDT1">Present</span>
+        </span>
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="jobtitle" id="27246731JTIT1">Product Designer</span><span></span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname" id="27246731COMP1">Bitfoundries (Contract)</span>
+            <span class="joblocation jobcity" id="27246731JCIT1"></span>
+            <span class="joblocation jobstate" id="27246731JSTA1"></span><br>
+          </span>
+          <span class="jobline" id="27246731JDES1"><ul><li>Design wireframes and user flows for company's responsive websites.</li><li>Conduct user research to identify opportunities for improving company's website; to create organic traffic increase.</li><li>Define basic visual brand.</li></ul></span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_27246731_2" class="paragraph">
+        <span class="dates_wrapper">
+          <span class="jobdates" format="%m/%Y" id="27246731JSTD2">12/2016</span>
+          <span> to </span>
+          <span class="jobdates" format="%m/%Y" id="27246731EDDT2">04/2017</span>
+        </span>
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="jobtitle" id="27246731JTIT2">Product Designer</span><span></span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname" id="27246731COMP2">Tradecraft</span>
+            <span class="joblocation jobcity" id="27246731JCIT2"></span>
+            <span class="joblocation jobstate" id="27246731JSTA2"></span><br>
+          </span>
+          <span class="jobline" id="27246731JDES2"><b>Praiseworthy:</b> Individual Feedback Management platform.<br><ul><li>Attained customers' feedback for the own business platform; provide responsive website.</li><li>Redesigned dashboard.</li><li>Conducted user interviews, usability testing, and prototyping.</li></ul><b>Laugh.ly:</b>  Stand-up Comedy Radio listen APP.<br><ul><li>Redesigned navigation flow and Information Architecture.</li><li>Performed user research, card sorting, tree testing, and usability testing to support the final designs.</li></ul><b>NewsBite:</b>  AI technology news platform. <font>Responsive Web.</font><ul><li>Created visual branding.</li><li>Defined interaction design and responsive web design.</li></ul></span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_27246731_3" class="paragraph">
+        <span class="dates_wrapper">
+          <span class="jobdates" format="%m/%Y" id="27246731JSTD3">10/2015</span>
+          <span> to </span>
+          <span class="jobdates" format="%m/%Y" id="27246731EDDT3">08/2016</span>
+        </span>
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="jobtitle" id="27246731JTIT3">Product Assistant</span><span></span>
+          </span>
+          <span class="paddedline">
+            <span class="companyname" id="27246731COMP3">USMALL</span>
+            <span class="joblocation jobcity" id="27246731JCIT3"></span>
+            <span class="joblocation jobstate" id="27246731JSTA3"></span><br>
+          </span>
+          <span class="jobline" id="27246731JDES3"><ul><li>Overhauled the website to optimize the user's experience.</li><li>Designed high-impact, user-centered around emails, and social media offerings to create strong user engagement and cement powerful brand identities.</li><li>Worked closely with stakeholders.</li><li>Worked with engineers on executing mockups.</li></ul></span>
+        </div>
+      </div>
+      </div>
+      <div id="SECTION_EDUC27246863" class="section">
+        <div class="heading topborder">
+        <div id="SECTNAME_EDUC27246863" class="sectiontitle">Education</div>
+      </div>
+        <div id="PARAGRAPH_27246863_1" class="paragraph firstparagraph">
+        <span class="dates_wrapper">
+              <span class="jobdates" format="%m/%Y" id="27246863GRYR1">06/2015</span>
+            </span>
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="degree" id="27246863DGRE1">Master of Arts</span><span>: </span>
+            <span class="programline" id="27246863STUY1">Fashion Merchandising</span><br>
+          </span>
+          <span class="paddedline">
+            <span class="companyname companyname_educ" id="27246863SCHO1">Academy of Art University - School of Fashion</span><span> - </span>
+            <span class="joblocation jobcity" id="27246863SCIT1">San Francisco</span><span>, </span>
+            <span class="joblocation jobstate" id="27246863SSTA1">CA</span><br>
+          </span>
+          <span class="field" id="27246863FRFM1"></span>
+        </div>
+      </div>
+        <div id="PARAGRAPH_27246863_2" class="paragraph">
+        <span class="dates_wrapper">
+              <span class="jobdates" format="%m/%Y" id="27246863GRYR2">06/2012</span>
+            </span>
+        <div class="singlecolumn">
+          <span class="paddedline">
+            <span class="degree" id="27246863DGRE2">Bachelor of Science</span><span>: </span>
+            <span class="programline" id="27246863STUY2">Fashion Design and Engineering</span><br>
+          </span>
+          <span class="paddedline">
+            <span class="companyname companyname_educ" id="27246863SCHO2">Shanghai University of Engineering Sciences</span><span> - </span>
+            <span class="joblocation jobcity" id="27246863SCIT2">Shanghai</span>
+            <span class="joblocation jobstate" id="27246863SSTA2"></span><br>
+          </span>
+          <span class="field" id="27246863FRFM2"></span>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
