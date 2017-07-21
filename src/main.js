@@ -7,7 +7,7 @@ Vue.use(VueRouter)
 // Import Components
 import Home from './components/home.vue'
 import Laughly from './components/laughly.vue'
-import Newsbite from './components/newsbyte.vue'
+import Newsbite from './components/newsbite.vue'
 import Praiseworthy from './components/praiseworthy.vue'
 
 const routes = [

@@ -28,8 +28,6 @@ export default {
   components: {
     'navigation': require('./components/nav.vue'),
     'sidebar': require('./components/sidebar.vue'),
-    'newsbyte': require('./components/newsbyte.vue'),
-    'praiseworthy': require('./components/praiseworthy.vue'),
   }
 }
 </script>
