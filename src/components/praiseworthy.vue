@@ -140,13 +140,13 @@
 
             <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/design_studio_1.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img src="../assets/praiseworthy/praiseworthy_design_studio_1.jpg" alt="Design Studio"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/design_studio_2.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img src="../assets/praiseworthy/praiseworthy_design_studio_2.jpg" alt="Design Studio"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/design_studio_3.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img src="../assets/praiseworthy/praiseworthy_design_studio_3.jpg" alt="Design Studio"></figure>
               </div>
             </div>
             <div class="columns">
@@ -162,9 +162,9 @@
                   <li>White Board UI sketches</li>
                   <li>Integrate on wireframes and consolidate into master sketch files</li>
                 </ul>
+                <figure class="image"><img src="../assets/praiseworthy/praiseworthy_design_studio_4.jpg" alt="Design Studio"></figure>
               </div>
             </div>
-            <figure class="image"><img src="../assets/praiseworthy/design_studio_4.jpg" alt="Design Studio"></figure>
           </article>
         </div>
          <br>
@@ -195,32 +195,27 @@
             <br>
             <p class="has-text-centered"><strong>Redsigned Home Page</strong></p>
             <figure class="image"><img src="../assets/praiseworthy/lo_fi_after_2.png" alt="Redesigned Home Page"></figure>
-            <div class="columns">
-              <div class="column is-4 is-offset-2">
-                <p class="has-text-centered">Redesigned <strong>Rankings Page</strong></p>
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_rankings.png" alt="Resigned Rankings Page"></figure>
-              </div>
-              <div class="column is-4">
-                <p class="has-text-centered">Redesigned <strong>Alerts Page</strong></p>
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_alerts.png" alt="Redesigned Alerts Page"></figure>
-              </div>
-            </div>
+
+            <p class="has-text-centered">Redesigned <strong>Desktop Pages</strong></p>
             <div class="columns">
               <div class="column">
-                <p class="has-text-centered">Redesigned <strong>Employee Page</strong></p>
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_employee.png" alt="Resigned Employee Page"></figure>
+                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_rankings.png" alt="Mobile Overall Health Page"></figure>
               </div>
               <div class="column">
-                <p class="has-text-centered">Redesigned <strong>Locations Page</strong></p>
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_locations.png" alt="Redesigned Locations Page"></figure>
+                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_alerts.png" alt="Mobile Rankings Page"></figure>
               </div>
               <div class="column">
-                <p class="has-text-centered">Redesigned <strong>Employee Profile Page</strong></p>
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_profile.png" alt="Redesigned Employee Profile Page"></figure>
+                <figure class="image"><img src="../assets/praiseworthy/lo_fi_mobile_3_alerts.png" alt="Mobile Alerts Page"></figure>
+              </div>
+              <div class="column">
+                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_employee.png" alt="Mobile Employees Page"></figure>
+              </div>
+              <div class="column">
+                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_locations.png" alt="Mobile Locations"></figure>
               </div>
             </div>
 
-            <p class="has-text-centered">Redesigned <strong>Mobile Page</strong></p>
+            <p class="has-text-centered">Redesigned <strong>Mobile Pages</strong></p>
             <div class="columns">
               <div class="column">
                 <figure class="image"><img src="../assets/praiseworthy/lo_fi_mobile_1_overall_health.png" alt="Mobile Overall Health Page"></figure>
