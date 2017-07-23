@@ -37,7 +37,7 @@
             <p>We subdivided and planned our tasks, then created the process to follow. 
             </p><br>
             <figure class="image">
-              <img src="../assets/laughly/design_process_1.png">
+              <img src="../assets/laughly/design_process_1.jpg">
             </figure>
           </article><br><br><br>
 
@@ -72,8 +72,7 @@
             <br>
             <p>To help us make the final decision, we established two visions of the “Tree Testing” exercises based on these two visions of reordering the content hierarchy. We invited another five potential users for each vision and gave them tasks to complete. 
             </p>
-              <img src="../assets/laughly/tree_testing.png"><br>
-
+              <img src="../assets/laughly/tree_testing.png">
             <p>From the test result of the tree testing, we found that <strong>Vision 1</strong>（“Favourite” as the second level menu of “Profile”, remove “Radio” of “Explore” as an individual menu）is more suitable for the user’s mental model.
             </p>
 
@@ -292,7 +291,7 @@
                 At the same time, how to choose and use the right research method is equally important. This project provided me with good practice of the “Card Sorting” and “Tree Testing” techniques. We got valuable data and ultimately could deliver a reasonable solution. 
               </p>
 
-            <h3 class="title is-6">How to improve existing products, without deviating from the brand image and philosophy at the same time.</h3>
+            <h3 class="title is-6">2. How to improve existing products, without deviating from the brand image and philosophy at the same time.</h3>
               <p>
                 Laugh.ly already had a large user base and a very clear design style guide. So, one large challenge of this project was how to break the existing pattern, but not deviate from its original philosophy. To achieve this goal, we did not think about the style guide at all when brainstorming so we could generate as many good ideas as possible. Then, we based the design on the style guide to keep on improving. Ultimately, we successfully completed all the design requirements.  
               </p>
