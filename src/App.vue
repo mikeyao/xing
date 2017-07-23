@@ -5,7 +5,7 @@
       <div class="container">
         <div class="columns">
           <div class="column is-2">
-            <sidebar class="sidebar"></sidebar>
+            <sidebar class="sidebar" :app='app'></sidebar>
           </div>
           <div class="column is-9">
             <router-view></router-view>
@@ -21,7 +21,15 @@ export default {
   name: 'app',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      app: '',
+    }
+  },
+  
+  watch: {
+    '$route' (to, from){
+      console.log(`To: ${to.path}, From: ${from.path}`)
+      this.app = to.path.slice(1)
     }
   },
 

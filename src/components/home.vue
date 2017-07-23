@@ -1,6 +1,6 @@
 <template>
-  <div class="home section">
-    <div class="container">
+  <div class="home">
+    <div class="">
       <div class="motto columns">
         <div class="column is-half is-offset-one-quarter">
           <h1 class="has-text-centered title is-3">
@@ -9,7 +9,7 @@
         </div>
       </div>
 
-      <article>
+      <article id="Projects">
         <div class="columns is-multiline">
           <div class="column is-half">
             <router-link to="/laughly">

@@ -5,7 +5,7 @@
     </figure>
     
     <div class="section">
-      <h1 id="Praiseworthy-Project-Intro" class="title has-text-centered is-2">Project Intro</h1>
+      <h1 id="Laughly-Project-Intro" class="title has-text-centered is-2">Project Intro</h1>
       <article>
         <h2 class="title is-4">The Company</h2>
         <p>
@@ -33,7 +33,7 @@
     </div>
      <div class="section">
           <article>
-            <h1 id="laughly-Design-Process" class="title has-text-centered is-2">Design Process</h1><br>
+            <h1 id="Laughly-Design-Process" class="title has-text-centered is-2">Design Process</h1><br>
             <p>We subdivided and planned our tasks, then created the process to follow. 
             </p><br>
             <figure class="image">
@@ -145,7 +145,7 @@
 
 
         <div class="section">
-          <h1 class="title is-3">Lo-Fi Phase</h1>
+          <h1 id="Laughly-LoFi-Phase" class="title is-3">Lo-Fi Phase</h1>
           <br>
           <br>
 
@@ -203,7 +203,7 @@
 
           
           <article>
-            <h1 class="title is-3">HI-Fi Phase</h1>
+            <h1 id="Laughly-HiFi-Phase" class="title is-3">HI-Fi Phase</h1>
             <h2 class="title is-4">Hi-Fi Prototypes</h2>
             <p>After the Lo-Fi prototype test, we modified and identified most of the design. Then, we started creating the Hi-Fi prototypes.
             </p>
@@ -276,7 +276,7 @@
 
 
           <article>
-            <h1 id="laughly-Design-Process" class="title has-text-centered is-2">What I learned from this project</h1><br>
+            <h1 id="Laughly-What-I-Learned" class="title has-text-centered is-2">What I learned from this project</h1><br>
 
               <p>
                 This was a great project to work on. I am very appreciative for the opportunity to participate on this project. I’m also very grateful to work with the other four excellent designers, and very happy that my ideas and designs can impact many active users.<br>

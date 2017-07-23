@@ -16,7 +16,8 @@
       <div class="navbar-menu" :class="{ 'is-active': burgerMenuIsOpen }">
         <div class="navbar-start">
           <div class="navbar-item has-dropdown is-hoverable">
-            <p class="navbar-link is-active" href="#">Projects</p>
+            <a class="navbar-link is-active" href="/#Projects">Projects</a>
+            <!-- <router-link class="navbar-item" to="/laughly">Laughly</router-link> -->
             <div class="navbar-dropdown">
               <router-link class="navbar-item" to="/laughly">Laughly</router-link>
               <router-link class="navbar-item" to="/newsbite">Newsbite</router-link>

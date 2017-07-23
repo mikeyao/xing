@@ -7,7 +7,7 @@
     </figure>
     </div>
     <section class="section">
-      <h1 class="title has-text-centered is-2">Project Intro</h1>
+      <h1 id="Newsbite-Project-Intro" class="title has-text-centered is-2">Project Intro</h1>
       <h2 class="title is-4">The Company</h2>
       <p>
         NewsBite is a platform that uses AI technology to extract neutral statements from man AI sources of news articles, then compose and edit them into an unbiased story. The goal is to create a new platform for people to engage with. It is committed to provide people with neutral, comprehensive, and reliable news.
@@ -56,7 +56,7 @@
     
     <section class="section">
       <article>
-        <h1 id="Praiseworthy-Design-Process" class="title has-text-centered is-2">Design Process</h1>
+        <h1 id="Newsbite-Design-Process" class="title has-text-centered is-2">Design Process</h1>
         <figure class="image">
           <img src="../assets/newsbite/design_process/banner.png">
         </figure>
@@ -121,7 +121,7 @@
       </article><br><br><br>
       
       <article>
-        <h2 class="title is-3">Lo-Fi Phase</h2>
+        <h1 id="Newsbite-LoFi-Phase" class="title is-3">Lo-Fi Phase</h1>
         <h3 class="title is-4">Lo-Fi Wireframes</h3>
         <img src="../assets/newsbite/lo_fi_wireframes.png">
         <h3 class="title is-4">Interaction Design</h3>
@@ -183,7 +183,7 @@
       </article><br><br><br>
       
       <article>
-        <h2 class="title is-3">Hi-Fi Phase</h2>
+        <h1 id="Newsbite-HiFi-Phase" class="title is-3">Hi-Fi Phase</h1>
         <h3 class="title is-4">Font Type Exploration</h3>
         <p>
           We are very clear what type of fonts we are looking for: High-definition, easy to read, timeless, and match the brand image. We compared many fonts.
@@ -211,7 +211,7 @@
 
 
     <article>
-        <h1 id="Praiseworthy-Design-Process" class="title has-text-centered is-2">The Solution</h1>
+        <h1 id="Newsbite-The-Solution" class="title has-text-centered is-2">The Solution</h1>
 
         <h2 class="title is-3">Home Page</h2>
 
