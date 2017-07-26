@@ -26,11 +26,7 @@
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <p class="navbar-link">Artworks</p>
-            <div class="navbar-dropdown">
-              <router-link class="navbar-item" to="/">Artwork 1</router-link>
-              <router-link class="navbar-item" to="/">Artwork 2</router-link>
-            </div>
+            <router-link class="navbar-item" to="/artworks">Artworks</router-link>
           </div>
 
           <router-link class="navbar-item" to="/about">About</router-link>
