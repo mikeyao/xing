@@ -66,6 +66,11 @@ export default {
       position: fixed;
       top: 100px;
     }
+    
+  }
+  
+  .fullscreen-v-img {
+    z-index: 3;
   }
 
   // h1 {
