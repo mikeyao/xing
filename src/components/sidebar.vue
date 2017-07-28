@@ -13,10 +13,11 @@
       <li><a href="#Newsbite-HiFi-Phase">Hi-Fi Phase</a></li>
     </ul>
     <ul v-if="app == 'laughly'">
-      <li><a href="#Laughly-Project-Intro">Project Intro</a></li>
-      <li><a href="#Laughly-Design-Process">Design Process</a></li>
-      <li><a href="#Laughly-LoFi-Phase">Lo-Fi Phase</a></li>
-      <li><a href="#Laughly-HiFi-Phase">Hi-Fi Phase</a></li>
+      <li><router-link to="/laughly#Laughly-Project-Intro">Project Intro</router-link></li>
+      <!-- <li><a href="/laughly#Laughly-Project-Intro">Project Intro</a></li> -->
+      <li><router-link to="/laughly#Laughly-Design-Process">Design Process</router-link></li>
+      <li><router-link to="/laughly#Laughly-LoFi-Phase">Lo-Fi Phase</router-link></li>
+      <li><router-link to="/laughly#Laughly-HiFi-Phase">Hi-Fi Phase</router-link></li>
     </ul>
   </div>
 </template>
