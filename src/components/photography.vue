@@ -1,5 +1,5 @@
 <template>
-  <div class="artworks">
+  <div class="photography">
     <div class="tabs is-centered">
       <ul>
         <li v-for="albumn in artworks" :class="{ 'is-active': albumn.src == selected }"><a @click='pickAlbumn(albumn)'>{{ albumn.label }}</a></li>
@@ -208,7 +208,7 @@ export default {
 </script>
 
 <style lang="scss">
-  .artworks {
+  .photography {
     .column {
       padding: 1.25rem;
     }
