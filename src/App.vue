@@ -23,6 +23,7 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       app: '',
+      jumpTo: '',
     }
   },
   
@@ -30,6 +31,10 @@ export default {
     '$route' (to, from){
       console.log(`To: ${to.path}, From: ${from.path}`)
       this.app = to.path.slice(1)
+      // Jump to ID if hash exists
+      if (to.hash){
+        document.querySelector(to.hash).scrollIntoView()
+      }
     }
   },
 
