@@ -12,6 +12,7 @@ import Laughly from './components/laughly.vue'
 import Newsbite from './components/newsbite.vue'
 import Praiseworthy from './components/praiseworthy.vue'
 import Artworks from './components/artworks.vue'
+import Photography from './components/photography.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -19,6 +20,7 @@ const routes = [
   { path: '/newsbite', component: Newsbite },
   { path: '/praiseworthy', component: Praiseworthy },
   { path: '/artworks', component: Artworks },
+  { path: '/photography', component: Photography },
   { path: '*', redirect: '/'},
 ]
 

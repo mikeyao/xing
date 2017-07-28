@@ -19,7 +19,7 @@
       <div class="columns">
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'church_home_collection'}" src='../assets/artworks/church_home_collection/church_home_collection_0.jpg'>
+            <img v-img="{group: 'church_home_collection'}" src='../assets/artworks/church_home_collection/church_home_collection_6.jpg'>
           </figure>
         </div>
         <div class="column">
@@ -29,7 +29,7 @@
         </div>
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'church_home_collection'}" src='../assets/artworks/church_home_collection/church_home_collection_2.jpg'>
+            <img v-img="{group: 'church_home_collection'}" src='../assets/artworks/church_home_collection/church_home_collection_0.jpg'>
           </figure>
         </div>
       </div>
@@ -37,12 +37,7 @@
       <div class="columns">
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'church_home_collection'}" src='../assets/artworks/church_home_collection/church_home_collection_3.jpg'>
-          </figure>
-        </div>
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'church_home_collection'}" src='../assets/artworks/church_home_collection/church_home_collection_4.jpg'>
+            <img v-img="{group: 'church_home_collection'}" src='../assets/artworks/church_home_collection/church_home_collection_2.jpg'>
           </figure>
         </div>
         <div class="column">
@@ -50,34 +45,26 @@
             <img v-img="{group: 'church_home_collection'}" src='../assets/artworks/church_home_collection/church_home_collection_5.jpg'>
           </figure>
         </div>
-      </div>
-      
-      <div class="columns">
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'church_home_collection'}" src='../assets/artworks/church_home_collection/church_home_collection_6.jpg'>
-          </figure>
-        </div>
         <div class="column">
           <figure class="image">
             <img v-img="{group: 'church_home_collection'}" src='../assets/artworks/church_home_collection/church_home_collection_7.jpg'>
           </figure>
         </div>
-        <div class="column">
-        </div>
       </div>
+      
+      
     </section>
     
     <section class="section" v-if="selected == 'black_and_white_home_collection'">
       <div class="columns">
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'black_and_white_home_collection'}" src='../assets/artworks/black_and_white_home_collection/black_and_white_home_collection_0.jpg'>
+            <img v-img="{group: 'black_and_white_home_collection'}" src='../assets/artworks/black_and_white_home_collection/black_and_white_home_collection_4.jpg'>
           </figure>
         </div>
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'black_and_white_home_collection'}" src='../assets/artworks/black_and_white_home_collection/black_and_white_home_collection_1.jpg'>
+            <img v-img="{group: 'black_and_white_home_collection'}" src='../assets/artworks/black_and_white_home_collection/black_and_white_home_collection_6.jpg'>
           </figure>
         </div>
         <div class="column">
@@ -95,7 +82,7 @@
         </div>
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'black_and_white_home_collection'}" src='../assets/artworks/black_and_white_home_collection/black_and_white_home_collection_4.jpg'>
+            <img v-img="{group: 'black_and_white_home_collection'}" src='../assets/artworks/black_and_white_home_collection/black_and_white_home_collection_0.jpg'>
           </figure>
         </div>
         <div class="column">
@@ -105,29 +92,19 @@
         </div>
       </div>
       
-      <div class="columns">
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'black_and_white_home_collection'}" src='../assets/artworks/black_and_white_home_collection/black_and_white_home_collection_6.jpg'>
-          </figure>
-        </div>
-        <div class="column">
-        </div>
-        <div class="column">
-        </div>
-      </div>
+      
     </section>
     
     <section class="section" v-if="selected == 'nature_scarf_collection'">
       <div class="columns">
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'nature_scarf_collection'}" src='../assets/artworks/nature_scarf_collection/nature_scarf_collection_0.jpg'>
+            <img v-img="{group: 'nature_scarf_collection'}" src='../assets/artworks/nature_scarf_collection/nature_scarf_collection_6.jpg'>
           </figure>
         </div>
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'nature_scarf_collection'}" src='../assets/artworks/nature_scarf_collection/nature_scarf_collection_1.jpg'>
+            <img v-img="{group: 'nature_scarf_collection'}" src='../assets/artworks/nature_scarf_collection/nature_scarf_collection_7.jpg'>
           </figure>
         </div>
         <div class="column">
@@ -140,7 +117,7 @@
       <div class="columns">
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'nature_scarf_collection'}" src='../assets/artworks/nature_scarf_collection/nature_scarf_collection_3.jpg'>
+            <img v-img="{group: 'nature_scarf_collection'}" src='../assets/artworks/nature_scarf_collection/nature_scarf_collection_1.jpg'>
           </figure>
         </div>
         <div class="column">
@@ -155,20 +132,7 @@
         </div>
       </div>
       
-      <div class="columns">
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'nature_scarf_collection'}" src='../assets/artworks/nature_scarf_collection/nature_scarf_collection_6.jpg'>
-          </figure>
-        </div>
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'nature_scarf_collection'}" src='../assets/artworks/nature_scarf_collection/nature_scarf_collection_7.jpg'>
-          </figure>
-        </div>
-        <div class="column">
-        </div>
-      </div>
+
     </section>
     
     <section class="section" v-if="selected == 'peking_opera_blues_swimwear_collection'">
@@ -180,48 +144,17 @@
         </div>
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'peking_opera_blues_swimwear_collection'}" src='../assets/artworks/peking_opera_blues_swimwear_collection/peking_opera_blues_swimwear_collection_1.jpg'>
-          </figure>
-        </div>
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'peking_opera_blues_swimwear_collection'}" src='../assets/artworks/peking_opera_blues_swimwear_collection/peking_opera_blues_swimwear_collection_2.jpg'>
-          </figure>
-        </div>
-      </div>
-      
-      <div class="columns">
-        <div class="column">
-          <figure class="image">
             <img v-img="{group: 'peking_opera_blues_swimwear_collection'}" src='../assets/artworks/peking_opera_blues_swimwear_collection/peking_opera_blues_swimwear_collection_3.jpg'>
           </figure>
         </div>
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'peking_opera_blues_swimwear_collection'}" src='../assets/artworks/peking_opera_blues_swimwear_collection/peking_opera_blues_swimwear_collection_4.jpg'>
-          </figure>
-        </div>
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'peking_opera_blues_swimwear_collection'}" src='../assets/artworks/peking_opera_blues_swimwear_collection/peking_opera_blues_swimwear_collection_5.jpg'>
+            <img v-img="{group: 'peking_opera_blues_swimwear_collection'}" src='../assets/artworks/peking_opera_blues_swimwear_collection/peking_opera_blues_swimwear_collection_6.jpg'>
           </figure>
         </div>
       </div>
       
-      <div class="columns">
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'peking_opera_blues_swimwear_collection'}" src='../assets/artworks/peking_opera_blues_swimwear_collection/peking_opera_blues_swimwear_collection_6.jpg'>
-          </figure>
-        </div>
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'peking_opera_blues_swimwear_collection'}" src='../assets/artworks/peking_opera_blues_swimwear_collection/peking_opera_blues_swimwear_collection_7.jpg'>
-          </figure>
-        </div>
-        <div class="column">
-        </div>
-      </div>
+      
     </section>
     
     <section class="section" v-if="selected == 'san_francisco_womens_wear_collection'">
@@ -233,7 +166,7 @@
         </div>
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'san_francisco_womens_wear_collection'}" src='../assets/artworks/san_francisco_womens_wear_collection/san_francisco_womens_wear_collection_1.jpg'>
+            <img v-img="{group: 'san_francisco_womens_wear_collection'}" src='../assets/artworks/san_francisco_womens_wear_collection/san_francisco_womens_wear_collection_7.jpg'>
           </figure>
         </div>
         <div class="column">
@@ -246,7 +179,7 @@
       <div class="columns">
         <div class="column">
           <figure class="image">
-            <img v-img="{group: 'san_francisco_womens_wear_collection'}" src='../assets/artworks/san_francisco_womens_wear_collection/san_francisco_womens_wear_collection_3.jpg'>
+            <img v-img="{group: 'san_francisco_womens_wear_collection'}" src='../assets/artworks/san_francisco_womens_wear_collection/san_francisco_womens_wear_collection_1.jpg'>
           </figure>
         </div>
         <div class="column">
@@ -261,20 +194,6 @@
         </div>
       </div>
       
-      <div class="columns">
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'san_francisco_womens_wear_collection'}" src='../assets/artworks/san_francisco_womens_wear_collection/san_francisco_womens_wear_collection_6.jpg'>
-          </figure>
-        </div>
-        <div class="column">
-          <figure class="image">
-            <img v-img="{group: 'san_francisco_womens_wear_collection'}" src='../assets/artworks/san_francisco_womens_wear_collection/san_francisco_womens_wear_collection_7.jpg'>
-          </figure>
-        </div>
-        <div class="column">
-        </div>
-      </div>
     </section>
     
   </div>
@@ -285,18 +204,18 @@
 export default {
   data (){
     return {
-      selected: 'black_and_white_home_collection',
+      selected: 'church_home_collection',
     }
   },
   
   computed: {
     artworks (){
       return [
-        { label: 'Black & White', src: 'black_and_white_home_collection', count: 7},
         { label: 'Church', src: 'church_home_collection', count: 8},
-        { label: 'Nature Scarf', src: 'nature_scarf_collection', count: 8},
+        { label: 'Black & White', src: 'black_and_white_home_collection', count: 7},
+        { label: 'Nature', src: 'nature_scarf_collection', count: 8},
         { label: 'Peking Opera', src: 'peking_opera_blues_swimwear_collection', count: 8},
-        { label: 'San Francisco Womens Wear', src: 'san_francisco_womens_wear_collection', count: 8},
+        { label: 'San Francisco', src: 'san_francisco_womens_wear_collection', count: 8},
       ]
     },
     
