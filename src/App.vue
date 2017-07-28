@@ -22,7 +22,6 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
-      app: '',
       jumpTo: '',
     }
   },
@@ -30,11 +29,20 @@ export default {
   watch: {
     '$route' (to, from){
       console.log(`To: ${to.path}, From: ${from.path}`)
-      this.app = to.path.slice(1)
+      // Only if the path is different, then scroll to the top
+      if (to.path !== from.path){
+        window.scrollTo(0,0)
+      }
       // Jump to ID if hash exists
       if (to.hash){
         document.querySelector(to.hash).scrollIntoView()
       }
+    }
+  },
+  
+  computed: {
+    app (){
+      return this.$route.path.slice(1)
     }
   },
 
