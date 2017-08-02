@@ -95,8 +95,8 @@
       
     </section>
     
-    <section class="section" v-if="selected == 'lights'">
-      <div class="columns">
+    <section class="section lights" v-if="selected == 'lights'">
+      <div class="columns first-row">
         <div class="column is-two-thirds">
           <figure class="image">
             <img v-img="{group: 'lights'}" src='../assets/artworks/photography/lights/lights_2.jpg'>
@@ -161,7 +161,7 @@
 export default {
   data (){
     return {
-      selected: 'flowers',
+      selected: 'lights',
     }
   },
   
@@ -171,7 +171,7 @@ export default {
         { label: 'Animals', src: 'animals', count: 8},
         { label: 'Flowers', src: 'flowers', count: 7},
         { label: 'Lights', src: 'lights', count: 8},
-        { label: 'Stanford', src: 'stanford', count: 8},
+        { label: 'Hoover Tower', src: 'stanford', count: 8},
       ]
     },
     
@@ -212,9 +212,11 @@ export default {
     .column {
       padding: 1.25rem;
     }
-    _img {
-      width: 280px;
-      height: 375px;
+    .lights {
+      .first-row img {
+        height: 304px;
+      }
     }
+    
   }
 </style>

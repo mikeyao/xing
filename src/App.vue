@@ -80,6 +80,10 @@ export default {
       top: 100px;
     }
     
+    .app-content {
+      padding-top: 4rem;
+    }
+    
   }
   
   .fullscreen-v-img {

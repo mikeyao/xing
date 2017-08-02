@@ -1,8 +1,15 @@
 <template>
 <div class="content praiseworthy">
-    <figure class="image">
-      <img src="../assets/laughly/project_intro_title.png">
-    </figure>
+  <figure class="image">
+    <img v-img src="../assets/laughly/project_intro_title.png">
+  </figure>
+  
+  <div class="level-item has-text-centered">
+    <!-- <iframe width="438" height="930" src="https://marvelapp.com/52dh42h?emb=1" frameborder="0" allowfullscreen=""></iframe> -->
+    <iframe width="300" height="598" src="https://marvelapp.com/52dh42h/screen/25194780" frameborder="0" allowfullscreen=""></iframe>
+  </div>
+  
+    
     
     <div class="section">
       <h1 id="Laughly-Project-Intro" class="title has-text-centered is-2">Project Intro</h1>
@@ -37,7 +44,7 @@
             <p>We subdivided and planned our tasks, then created the process to follow. 
             </p><br>
             <figure class="image">
-              <img src="../assets/laughly/design_process_1.jpg">
+              <img v-img src="../assets/laughly/design_process_1.jpg">
             </figure>
           </article><br><br><br>
 
@@ -49,10 +56,10 @@
 
             <div class="columns">
               <div class="column is-4 is-offset-2">
-                <figure class="image"><img src="../assets/laughly/research_1.jpg" alt="card-sorting-1"></figure>
+                <figure class="image"><img v-img src="../assets/laughly/research_1.jpg" alt="card-sorting-1"></figure>
               </div>
               <div class="column is-4">
-                <figure class="image"><img src="../assets/laughly/research_2.jpg" alt="card-sorting-2"></figure>
+                <figure class="image"><img v-img src="../assets/laughly/research_2.jpg" alt="card-sorting-2"></figure>
               </div>
             </div>
 
@@ -66,13 +73,13 @@
             </p><br><br>
             <div class="columns">
               <div class="column is-11">
-                <img src="../assets/laughly/card_sorting.jpg">
+                <img v-img src="../assets/laughly/card_sorting.jpg">
               </div>
             </div>
             <br>
             <p>To help us make the final decision, we established two visions of the “Tree Testing” exercises based on these two visions of reordering the content hierarchy. We invited another five potential users for each vision and gave them tasks to complete. 
             </p>
-              <img src="../assets/laughly/tree_testing.png">
+              <img v-img src="../assets/laughly/tree_testing.png">
             <p>From the test result of the tree testing, we found that <strong>Vision 1</strong>（“Favourite” as the second level menu of “Profile”, remove “Radio” of “Explore” as an individual menu）is more suitable for the user’s mental model.
             </p>
 
@@ -102,16 +109,16 @@
           
               <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/laughly/design_studio_1.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/laughly/design_studio_1.jpg" alt="Design Studio"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/laughly/design_studio_2.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/laughly/design_studio_2.jpg" alt="Design Studio"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/laughly/design_studio_3.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/laughly/design_studio_3.jpg" alt="Design Studio"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/laughly/design_studio_4.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/laughly/design_studio_4.jpg" alt="Design Studio"></figure>
               </div>
             </div>
       
@@ -154,7 +161,7 @@
             <br>
             <p>After brainstorming in Design Studio, we collaborated all the best ideas and generated Lo-Fi wireframes.
             </p>
-            <figure class="image"><img src="../assets/laughly/lo_fi_1.png" alt="Lo-Fi"></figure>
+            <figure class="image"><img v-img src="../assets/laughly/lo_fi_1.png" alt="Lo-Fi"></figure>
             <h2 class="title is-4">Lo-Fi Validation Findings</h2>
             <p>
             Through this round of testing, we found testers easily finished most of our scenario tasks. But there were still some places they felt confused and had a difficult time to find the proper content. These include: <br><br>
@@ -168,7 +175,7 @@
             </p>
             <div class="columns">
               <div class="column is-11 is-offset-1">
-                <img src="../assets/laughly/lo_fi_profile.png">
+                <img v-img src="../assets/laughly/lo_fi_profile.png">
               </div>
             </div>
 
@@ -180,7 +187,7 @@
             </p>
             <div class="columns">
               <div class="column is-11 is-offset-1">
-                <img src="../assets/laughly/lo_fi_social_feed.png">
+                <img v-img src="../assets/laughly/lo_fi_social_feed.png">
               </div>
             </div>
 
@@ -196,7 +203,7 @@
             </p>
             <div class="columns">
               <div class="column is-11 is-offset-1">
-                <img src="../assets/laughly/lo_fi_home.png">
+                <img v-img src="../assets/laughly/lo_fi_home.png">
               </div>
             </div>
           </article><br><br><br>
@@ -220,10 +227,10 @@
             
             <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/laughly/hi_fi_home_explore.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/laughly/hi_fi_home_explore.jpg" alt="Design Studio"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/laughly/hi_fi_home_news_feed.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/laughly/hi_fi_home_news_feed.jpg" alt="Design Studio"></figure>
               </div>
             </div>
             
@@ -267,8 +274,8 @@
 
               <div class="level">
               <div class="level-item has-text-centered">
-                <!-- <figure class="image"><img src="../assets/praiseworthy/lo_fi_prototypes_mobile.png" alt="Lo Fi Prototype Mobile"></figure> -->
-                <iframe width="438" height="930" src="https://marvelapp.com/52dh42h/screen/25194780" frameborder="0" allowfullscreen=""></iframe>
+                <!-- <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_prototypes_mobile.png" alt="Lo Fi Prototype Mobile"></figure> -->
+                <!-- <iframe width="438" height="930" src="https://marvelapp.com/52dh42h/screen/25194780" frameborder="0" allowfullscreen=""></iframe> -->
               </div>
             </div>
 

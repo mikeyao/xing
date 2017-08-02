@@ -13,7 +13,8 @@
         </div>
       </div>
 
-      <div class="navbar-menu" :class="{ 'is-active': burgerMenuIsOpen }">
+      <div class="navbar-menu" :class="{ 'is-active': burgerMenuIsOpen }" 
+        @click="toggleBurgerMenu">
         <div class="navbar-start">
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link is-active" href="/#Projects">Projects</a>
@@ -34,8 +35,8 @@
             </div>
           </div>
 
-          <router-link class="navbar-item" to="/about">About</router-link>
-          <router-link class="navbar-item" to="/Resume">Resume</router-link>
+          <!-- <router-link class="navbar-item" to="/about">About</router-link> -->
+          <router-link class="navbar-item" to="/resume">Resume</router-link>
           
         </div>
         

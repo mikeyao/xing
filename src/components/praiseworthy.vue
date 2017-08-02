@@ -1,8 +1,24 @@
 <template>
   <div class="content praiseworthy">
     <figure class="image">
-      <img src="../assets/praiseworthy/title.png">
+      <img v-img src="../assets/praiseworthy/title.png">
     </figure>
+    <div class="level">
+      <div class="level-item has-text-centered">
+        <!-- <figure class="image"><img v-img src="../assets/praiseworthy/hi_fi_mobile.png" alt="Lo Fi Prototype Mobile"></figure> -->
+        <iframe src="https://marvelapp.com/1df81g2?emb=1" width="300" height="598" allowtransparency="true" frameborder="0"></iframe>
+        <!-- <iframe src="https://marvelapp.com/1df81g2/screen/24832762" width="300" height="598" allowtransparency="true" frameborder="0"></iframe> -->
+        
+      </div>
+    </div>
+    <br>
+    <div class="level">
+      <div class="level-item has-text-centered">
+        <!-- <figure class="image"><img v-img src="../assets/praiseworthy/hi_fi_tablet.png" alt="Lo Fi Prototype Tablet"></figure> -->
+        <iframe src="https://marvelapp.com/31g34hd?emb=1" width="948" height="676" allowtransparency="true" frameborder="0"></iframe>
+      </div>
+    </div>
+    
     
     <div class="section">
       <h1 id="Praiseworthy-Project-Intro" class="title has-text-centered is-2">Project Intro</h1>
@@ -36,7 +52,7 @@
           <article>
             <h1 id="Praiseworthy-Design-Process" class="title has-text-centered is-2">Design Process</h1>
             <figure class="image">
-              <img src="../assets/praiseworthy/design_process.png">
+              <img v-img src="../assets/praiseworthy/design_process.png">
             </figure>
             <!-- <div class="columns">
               <div class="column">
@@ -79,7 +95,7 @@
             </p>
             <div class="columns">
               <div class="column is-half is-offset-one-quarter">
-                <img src="../assets/praiseworthy/product_value.png">
+                <img v-img src="../assets/praiseworthy/product_value.png">
               </div>
             </div>
             <br>
@@ -140,13 +156,13 @@
 
             <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/praiseworthy_design_studio_1.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/praiseworthy_design_studio_1.jpg" alt="Design Studio"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/praiseworthy_design_studio_2.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/praiseworthy_design_studio_2.jpg" alt="Design Studio"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/praiseworthy_design_studio_3.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/praiseworthy_design_studio_3.jpg" alt="Design Studio"></figure>
               </div>
             </div>
             <div class="columns">
@@ -162,7 +178,7 @@
                   <li>White Board UI sketches</li>
                   <li>Integrate on wireframes and consolidate into master sketch files</li>
                 </ul>
-                <figure class="image"><img src="../assets/praiseworthy/praiseworthy_design_studio_4.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/praiseworthy_design_studio_4.jpg" alt="Design Studio"></figure>
               </div>
             </div>
           </article>
@@ -179,10 +195,10 @@
             <br>
             <div class="columns">
               <div class="column is-5 is-offset-1">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_1.jpg" alt="Lo-Fi"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_1.jpg" alt="Lo-Fi"></figure>
               </div>
               <div class="column is-5">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_2.jpg" alt="Lo-Fi"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_2.jpg" alt="Lo-Fi"></figure>
               </div>
             </div>
             <p>
@@ -191,49 +207,49 @@
             <br>
             <br>
             <p class="has-text-centered"><strong>Original Home Page</strong></p>
-            <figure class="image lo-fi-before"><img src="../assets/praiseworthy/lo_fi_before_2.png" alt="Original Home Page"></figure>
+            <figure class="image lo-fi-before"><img v-img src="../assets/praiseworthy/lo_fi_before_2.png" alt="Original Home Page"></figure>
             <br>
             <p class="has-text-centered"><strong>Redsigned Home Page</strong></p>
-            <figure class="image"><img src="../assets/praiseworthy/lo_fi_after_2.png" alt="Redesigned Home Page"></figure>
+            <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_after_2.png" alt="Redesigned Home Page"></figure>
 
             <p class="has-text-centered">Redesigned <strong>Desktop Pages</strong></p>
             <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_rankings.png" alt="Mobile Overall Health Page"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_desktop_rankings.png" alt="Mobile Overall Health Page"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_alerts.png" alt="Mobile Rankings Page"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_desktop_alerts.png" alt="Mobile Rankings Page"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_mobile_3_alerts.png" alt="Mobile Alerts Page"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_mobile_3_alerts.png" alt="Mobile Alerts Page"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_employee.png" alt="Mobile Employees Page"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_desktop_employee.png" alt="Mobile Employees Page"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_desktop_locations.png" alt="Mobile Locations"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_desktop_locations.png" alt="Mobile Locations"></figure>
               </div>
             </div>
 
             <p class="has-text-centered">Redesigned <strong>Mobile Pages</strong></p>
             <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_mobile_1_overall_health.png" alt="Mobile Overall Health Page"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_mobile_1_overall_health.png" alt="Mobile Overall Health Page"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_mobile_2_rankings.png" alt="Mobile Rankings Page"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_mobile_2_rankings.png" alt="Mobile Rankings Page"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_mobile_3_alerts.png" alt="Mobile Alerts Page"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_mobile_3_alerts.png" alt="Mobile Alerts Page"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_mobile_4_employees.png" alt="Mobile Employees Page"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_mobile_4_employees.png" alt="Mobile Employees Page"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_mobile_5_locations.png" alt="Mobile Locations"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_mobile_5_locations.png" alt="Mobile Locations"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/lo_fi_mobile_6_profile.png" alt="Mobile Employee Profile Page"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_mobile_6_profile.png" alt="Mobile Employee Profile Page"></figure>
               </div>
             </div>
           </article>
@@ -246,14 +262,14 @@
             <br>
             <div class="level">
               <div class="level-item has-text-centered">
-                <!-- <figure class="image"><img src="../assets/praiseworthy/lo_fi_prototypes_mobile.png" alt="Lo Fi Prototype Mobile"></figure> -->
+                <!-- <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_prototypes_mobile.png" alt="Lo Fi Prototype Mobile"></figure> -->
                 <iframe width="438" height="930" src="https://invis.io/5JA1GOOZR" frameborder="0" allowfullscreen=""></iframe>
               </div>
             </div>
             <br>
             <div class="level">
               <div class="level-item has-text-centered">
-                <!-- <figure class="image"><img src="../assets/praiseworthy/lo_fi_prototypes_tablet.png" alt="Lo Fi Prototype Tablet"></figure> -->
+                <!-- <figure class="image"><img v-img src="../assets/praiseworthy/lo_fi_prototypes_tablet.png" alt="Lo Fi Prototype Tablet"></figure> -->
                 <iframe src="https://marvelapp.com/3d4cca8?emb=1" width="948" height="676" allowtransparency="true" frameborder="0"></iframe>
               </div>
             </div>
@@ -264,18 +280,18 @@
             <p>While we were working on the Lo-Fi design, there was another team working on the style guide.</p><br>
             <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/style_guide_1.png" alt="Style Guides"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/style_guide_1.png" alt="Style Guides"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/style_guide_2.png" alt="Style Guides"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/style_guide_2.png" alt="Style Guides"></figure>
               </div>
             </div>
             <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/style_guide_3.png" alt="Style Guides"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/style_guide_3.png" alt="Style Guides"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/praiseworthy/style_guide_4.png" alt="Style Guides"></figure>
+                <figure class="image"><img v-img src="../assets/praiseworthy/style_guide_4.png" alt="Style Guides"></figure>
               </div>
             </div>
           </article>
@@ -288,15 +304,15 @@
             <h2 class="title is-4">Final Prototypes</h2>
             <div class="level">
               <div class="level-item has-text-centered">
-                <!-- <figure class="image"><img src="../assets/praiseworthy/hi_fi_mobile.png" alt="Lo Fi Prototype Mobile"></figure> -->
-                <iframe src="https://marvelapp.com/1df81g2?emb=1" width="300" height="598" allowtransparency="true" frameborder="0"></iframe>
+                <figure class="image"><img v-img src="../assets/praiseworthy/hi_fi_mobile.png" alt="Lo Fi Prototype Mobile"></figure>
+                <!-- <iframe src="https://marvelapp.com/1df81g2?emb=1" width="300" height="598" allowtransparency="true" frameborder="0"></iframe> -->
               </div>
             </div>
             <br>
             <div class="level">
               <div class="level-item has-text-centered">
-                <!-- <figure class="image"><img src="../assets/praiseworthy/hi_fi_tablet.png" alt="Lo Fi Prototype Tablet"></figure> -->
-                <iframe src="https://marvelapp.com/31g34hd?emb=1" width="948" height="676" allowtransparency="true" frameborder="0"></iframe>
+                <figure class="image"><img v-img src="../assets/praiseworthy/hi_fi_tablet.png" alt="Lo Fi Prototype Tablet"></figure>
+                <!-- <iframe src="https://marvelapp.com/31g34hd?emb=1" width="948" height="676" allowtransparency="true" frameborder="0"></iframe> -->
               </div>
             </div>
           </article>
