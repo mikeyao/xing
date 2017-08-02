@@ -95,8 +95,8 @@
       
     </section>
     
-    <section class="section" v-if="selected == 'lights'">
-      <div class="columns">
+    <section class="section lights" v-if="selected == 'lights'">
+      <div class="columns first-row">
         <div class="column is-two-thirds">
           <figure class="image">
             <img v-img="{group: 'lights'}" src='../assets/artworks/photography/lights/lights_2.jpg'>
@@ -212,9 +212,11 @@ export default {
     .column {
       padding: 1.25rem;
     }
-    _img {
-      width: 280px;
-      height: 375px;
+    .lights {
+      .first-row img {
+        height: 304px;
+      }
     }
+    
   }
 </style>

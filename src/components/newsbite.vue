@@ -1,11 +1,19 @@
 <template>
 
   <div class="content newsbite">
-    <div>
-      <figure class="image">
-      <img src="../assets/newsbite/title.jpg">
+    <figure class="image">
+      <img v-img src="../assets/newsbite/title.jpg">
     </figure>
+    <br><br>
+    <div class="columns">
+      <div class="column is-4 is-offset-2">
+        <img v-img src="../assets/newsbite/solution_home_desktop.gif">
+      </div>
+      <div class="column is-4">
+        <img v-img src="../assets/newsbite/solution_home_mobile.gif">
+      </div>
     </div>
+    
     <section class="section">
       <h1 id="Newsbite-Project-Intro" class="title has-text-centered is-2">Project Intro</h1>
       <h2 class="title is-4">The Company</h2>
@@ -49,7 +57,7 @@
     </section>
     <!-- <div class="container">
       <figure class="image" :style="{ width: '50%', height: 'auto' }">
-        <img src="../assets/Desktop Home .gif" alt="Newsbite Gif">
+        <img v-img src="../assets/Desktop Home .gif" alt="Newsbite Gif">
       </figure>
     </div> -->
 
@@ -58,7 +66,7 @@
       <article>
         <h1 id="Newsbite-Design-Process" class="title has-text-centered is-2">Design Process</h1>
         <figure class="image">
-          <img src="../assets/newsbite/design_process/banner.png">
+          <img v-img src="../assets/newsbite/design_process/banner.png">
         </figure>
       </article>
       <br>
@@ -70,10 +78,10 @@
         </p>
         <div class="columns">
           <div class="column is-5 is-offset-1">
-            <img src="../assets/newsbite/design_process/research_stickynotes.jpg">
+            <img v-img src="../assets/newsbite/design_process/research_stickynotes.jpg">
           </div>
           <div class="column is-5">
-            <img src="../assets/newsbite/design_process/research_user_goals.png">
+            <img v-img src="../assets/newsbite/design_process/research_user_goals.png">
           </div>
         </div>
         <br>
@@ -91,13 +99,13 @@
         </p>
         <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/newsbite_design_studio_1.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/newsbite_design_studio_1.jpg" alt="Design Studio"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/newsbite_design_studio_2.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/newsbite_design_studio_2.jpg" alt="Design Studio"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/newsbite_design_studio_3.jpg" alt="Design Studio"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/newsbite_design_studio_3.jpg" alt="Design Studio"></figure>
               </div>
           </div>
 
@@ -123,7 +131,7 @@
       <article>
         <h1 id="Newsbite-LoFi-Phase" class="title is-3">Lo-Fi Phase</h1>
         <h3 class="title is-4">Lo-Fi Wireframes</h3>
-        <img src="../assets/newsbite/lo_fi_wireframes.png">
+        <img v-img src="../assets/newsbite/lo_fi_wireframes.png">
         <h3 class="title is-4">Interaction Design</h3>
         <p>Our goal is to let users intuitively realize that this is different from traditional news platforms, articles they can read on NewsBite are neutral and provide different perspectives of topics. We encountered several challenges, then we explored different possibilities to show the concept.         
         </p>
@@ -132,10 +140,10 @@
 
         <div class="columns">
           <div class="column is-2 is-offset-4">
-            <img src="../assets/newsbite/lo_fi_interaction_home_1.gif">
+            <img v-img src="../assets/newsbite/lo_fi_interaction_home_1.gif">
           </div>
           <div class="column is-2">
-            <img src="../assets/newsbite/lo_fi_interaction_home_2.gif">
+            <img v-img src="../assets/newsbite/lo_fi_interaction_home_2.gif">
           </div>
         </div>
 
@@ -152,10 +160,10 @@
 
         <div class="columns">
           <div class="column is-2 is-offset-4">
-            <img src="../assets/newsbite/lo_fi_interaction_article_1.gif">
+            <img v-img src="../assets/newsbite/lo_fi_interaction_article_1.gif">
           </div>
           <div class="column is-2">
-            <img src="../assets/newsbite/lo_fi_interaction_article_2.gif">
+            <img v-img src="../assets/newsbite/lo_fi_interaction_article_2.gif">
           </div>
         </div>
 
@@ -167,17 +175,17 @@
           </p>
            <div class="columns"> 
             <div class="column">
-                <figure class="image"><img src="../assets/newsbite/branding_1.jpg" alt="branding"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/branding_1.jpg" alt="branding"></figure>
             </div>
           </div>
           <p>We prepared about 80 pictures with various random objects. (Car, bike lamp, cup, brands, etc.). In the end, we used their consensus to create the word cloud of “Like” and “Dislike”, and we obtained these important branding references, as shown in the picture below.
           </p>
           <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/branding_2.png" alt="branding"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/branding_2.png" alt="branding"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/branding_3.png" alt="branding"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/branding_3.png" alt="branding"></figure>
               </div>
           </div>
       </article><br><br><br>
@@ -188,7 +196,7 @@
         <p>
           We are very clear what type of fonts we are looking for: High-definition, easy to read, timeless, and match the brand image. We compared many fonts.
         </p>
-        <img src="../assets/newsbite/hi_fi_font.png">
+        <img v-img src="../assets/newsbite/hi_fi_font.png">
          <p>
           When we were working on colors, we first researched and analyzed some brands people think are “trustworthy”, as well as colors of some existing news platforms. Then, we combined and compared them with the brand image, to reveal the following:
         </p>
@@ -200,10 +208,10 @@
         </p>
         <div class="columns">
           <div class="column is-5 is-offset-1">
-            <img src="../assets/newsbite/hi_fi_logo_1.jpg">
+            <img v-img src="../assets/newsbite/hi_fi_logo_1.jpg">
           </div>
           <div class="column is-5">
-            <img src="../assets/newsbite/hi_fi_logo_2.jpg">
+            <img v-img src="../assets/newsbite/hi_fi_logo_2.jpg">
           </div>
         </div>
 
@@ -215,14 +223,14 @@
 
         <h2 class="title is-3">Home Page</h2>
 
-        <div class="columns">
+        <!-- <div class="columns">
           <div class="column is-4 is-offset-2">
-            <img src="../assets/newsbite/solution_home_desktop.gif">
+            <img v-img src="../assets/newsbite/solution_home_desktop.gif">
           </div>
           <div class="column is-4">
-            <img src="../assets/newsbite/solution_home_mobile.gif">
+            <img v-img src="../assets/newsbite/solution_home_mobile.gif">
           </div>
-        </div>
+        </div> -->
 
         <h2 class="title is-3">Article Page</h2>
         <p>
@@ -233,10 +241,10 @@
 
         <div class="columns">
           <div class="column is-4 is-offset-2">
-            <img src="../assets/newsbite/solution_article_desktop.gif">
+            <img v-img src="../assets/newsbite/solution_article_desktop.gif">
           </div>
           <div class="column is-4">
-            <img src="../assets/newsbite/solution_article_mobile.gif">
+            <img v-img src="../assets/newsbite/solution_article_mobile.gif">
           </div>
         </div>
 
@@ -245,38 +253,38 @@
             <p class="has-text-centered">Desktop</p>
             <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/solution_desktop_bookmarked.png" alt="other pages"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/solution_desktop_bookmarked.png" alt="other pages"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/solution_desktop_following.png" alt="other pages"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/solution_desktop_following.png" alt="other pages"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/solution_desktop_profile.png" alt="other pages"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/solution_desktop_profile.png" alt="other pages"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/solution_desktop_sign_in.png" alt="other pages"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/solution_desktop_sign_in.png" alt="other pages"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/solution_desktop_sign_up.png" alt="other pages"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/solution_desktop_sign_up.png" alt="other pages"></figure>
               </div>
             </div>
 
             <p class="has-text-centered">Mobile</p>
             <div class="columns">
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/solution_mobile_bookmarked.png" alt="other pages"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/solution_mobile_bookmarked.png" alt="other pages"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/solution_mobile_following.png" alt="other pages"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/solution_mobile_following.png" alt="other pages"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/solution_mobile_profile.png" alt="other pages"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/solution_mobile_profile.png" alt="other pages"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/solution_mobile_sign_in.png" alt="other pages"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/solution_mobile_sign_in.png" alt="other pages"></figure>
               </div>
               <div class="column">
-                <figure class="image"><img src="../assets/newsbite/solution_mobile_sign_up.png" alt="other pages"></figure>
+                <figure class="image"><img v-img src="../assets/newsbite/solution_mobile_sign_up.png" alt="other pages"></figure>
               </div>
             </div>
 
@@ -294,7 +302,7 @@
           </p>
             <div class="columns">
               <div class="column is-half is-offset-one-quarter">
-                <img src="../assets/newsbite/branding_font.png">
+                <img v-img src="../assets/newsbite/branding_font.png">
               </div>
             </div>
 
@@ -304,7 +312,7 @@
           </p>
           <div class="columns">
               <div class="column is-half is-offset-one-quarter">
-                <img src="../assets/newsbite/branding_color.png">
+                <img v-img src="../assets/newsbite/branding_color.png">
               </div>
             </div>
 
@@ -315,7 +323,7 @@
 
             <div class="columns">
               <div class="column is-half is-offset-one-quarter">
-                <img src="../assets/newsbite/branding_logo.png">
+                <img v-img src="../assets/newsbite/branding_logo.png">
               </div>
             </div>
 
