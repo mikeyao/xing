@@ -34,8 +34,8 @@
             </div>
           </div>
 
-          <router-link class="navbar-item" to="/about">About</router-link>
-          <router-link class="navbar-item" to="/Resume">Resume</router-link>
+          <!-- <router-link class="navbar-item" to="/about">About</router-link> -->
+          <router-link class="navbar-item" to="/resume">Resume</router-link>
           
         </div>
         
