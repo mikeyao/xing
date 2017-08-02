@@ -161,7 +161,7 @@
 export default {
   data (){
     return {
-      selected: 'flowers',
+      selected: 'lights',
     }
   },
   
@@ -171,7 +171,7 @@ export default {
         { label: 'Animals', src: 'animals', count: 8},
         { label: 'Flowers', src: 'flowers', count: 7},
         { label: 'Lights', src: 'lights', count: 8},
-        { label: 'Stanford', src: 'stanford', count: 8},
+        { label: 'Hoover Tower', src: 'stanford', count: 8},
       ]
     },
     
